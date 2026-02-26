@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 4,
-  "latestVersionName": "1.0.4",
-  "apkUrl": "https://github.com/Nizerchron/nizerverse-releases/releases/download/v1.0.4/app-release.apk",
-  "sha256": "9520AFF6CF4A00F55784E51FFAFF973F18907458CC7914AD0D4B464B082DB5DA",
+  "latestVersionCode": 5,
+  "latestVersionName": "1.0.5",
+  "apkUrl": "https://github.com/Nizerchron/nizerverse-releases/releases/download/v1.0.5/app-release.apk",
+  "sha256": "1147913ADA15AE5C59D6D6A4B1909402991E7DCE45E0C14F5586995903EC626B",
   "changelog": "New Feature Notif Update",
   "force": true
 }
