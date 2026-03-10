@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Privacy Policy — Nizervers</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --border: #1e1e2e;
+    --accent: #7c6aff;
+    --accent2: #ff6a9b;
+    --text: #e8e6f0;
+    --muted: #7a7890;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,15,0.85);
+    backdrop-filter: blur(12px);
+    z-index: 10;
+  }
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.02em;
+  }
+  .badge {
+    font-size: 0.7rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .nav-links { margin-left: auto; display: flex; gap: 1.5rem; }
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); }
+  .nav-links a.active { color: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .page-header { margin-bottom: 3rem; }
+  .page-header h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+  }
+  .page-header p { color: var(--muted); font-size: 0.9rem; }
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, var(--accent) 0%, transparent 60%);
+    margin-bottom: 3rem;
+    opacity: 0.4;
+  }
+  section { margin-bottom: 2.5rem; }
+  h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.01em;
+  }
+  p { color: #c5c2d4; margin-bottom: 0.75rem; }
+  ul { padding-left: 1.4rem; color: #c5c2d4; }
+  ul li { margin-bottom: 0.4rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .last-updated {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <span class="logo">Nizervers</span>
+  <span class="badge">Legal</span>
+  <nav class="nav-links">
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html" class="active">Privacy</a>
+    <a href="refund.html">Refund</a>
+  </nav>
+</header>
+
+<main>
+  <div class="page-header">
+    <h1>Privacy Policy</h1>
+    <p>Your privacy matters. Here's how we handle your data.</p>
+  </div>
+  <div class="last-updated">Last updated: March 11, 2025</div>
+  <div class="divider"></div>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>Nizervers ("we", "our", or "us") is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard data when you use the Nizervers application.</p>
+  </section>
+
+  <section>
+    <h2>2. Information We Collect</h2>
+    <p>We may collect the following types of information:</p>
+    <ul>
+      <li><strong>Account information:</strong> Name, email address when you register</li>
+      <li><strong>Purchase data:</strong> Transaction history and payment records (payment details are handled by our payment processor and not stored by us)</li>
+      <li><strong>Device information:</strong> Device type, operating system version, for compatibility purposes</li>
+      <li><strong>Usage data:</strong> Which themes are downloaded or viewed, to improve our offerings</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. How We Use Your Information</h2>
+    <p>We use collected information to:</p>
+    <ul>
+      <li>Provide and maintain the App and its features</li>
+      <li>Process transactions and send purchase confirmations</li>
+      <li>Respond to customer support inquiries</li>
+      <li>Send updates about new themes or important service changes</li>
+      <li>Improve the App based on usage patterns</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Sharing of Information</h2>
+    <p>We do not sell or rent your personal information to third parties. We may share data with:</p>
+    <ul>
+      <li><strong>Payment processors</strong> (e.g., Paddle) to complete transactions securely</li>
+      <li><strong>Analytics providers</strong> to understand app usage in an anonymized manner</li>
+      <li><strong>Legal authorities</strong> if required by law or to protect our rights</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Data Retention</h2>
+    <p>We retain your personal data for as long as your account is active or as needed to provide services. You may request deletion of your data at any time by contacting us.</p>
+  </section>
+
+  <section>
+    <h2>6. Security</h2>
+    <p>We implement industry-standard security measures to protect your information. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
+  </section>
+
+  <section>
+    <h2>7. Children's Privacy</h2>
+    <p>Nizervers is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+  </section>
+
+  <section>
+    <h2>8. Your Rights</h2>
+    <p>Depending on your location, you may have rights to access, correct, or delete your personal data. To exercise these rights, contact us at <a href="mailto:nizercreate@gmail.com">nizercreate@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes via email or in-app notification. Continued use of the App after changes constitutes acceptance.</p>
+  </section>
+
+  <section>
+    <h2>10. Contact Us</h2>
+    <p>For any privacy-related questions or concerns, please reach out to us at <a href="mailto:nizercreate@gmail.com">nizercreate@gmail.com</a>.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Nizervers. All rights reserved.
+</footer>
+</body>
+</html>

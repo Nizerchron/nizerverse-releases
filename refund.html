@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Refund Policy — Nizervers</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --border: #1e1e2e;
+    --accent: #7c6aff;
+    --accent2: #ff6a9b;
+    --text: #e8e6f0;
+    --muted: #7a7890;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    background: rgba(10,10,15,0.85);
+    backdrop-filter: blur(12px);
+    z-index: 10;
+  }
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.02em;
+  }
+  .badge {
+    font-size: 0.7rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .nav-links { margin-left: auto; display: flex; gap: 1.5rem; }
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--text); }
+  .nav-links a.active { color: var(--accent); }
+  main { max-width: 760px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .page-header { margin-bottom: 3rem; }
+  .page-header h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 0.75rem;
+  }
+  .page-header p { color: var(--muted); font-size: 0.9rem; }
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, var(--accent) 0%, transparent 60%);
+    margin-bottom: 3rem;
+    opacity: 0.4;
+  }
+  section { margin-bottom: 2.5rem; }
+  h2 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.01em;
+  }
+  p { color: #c5c2d4; margin-bottom: 0.75rem; }
+  ul { padding-left: 1.4rem; color: #c5c2d4; }
+  ul li { margin-bottom: 0.4rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .last-updated {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+  }
+  .highlight-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+    color: #c5c2d4;
+    font-size: 0.95rem;
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <span class="logo">Nizervers</span>
+  <span class="badge">Legal</span>
+  <nav class="nav-links">
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="refund.html" class="active">Refund</a>
+  </nav>
+</header>
+
+<main>
+  <div class="page-header">
+    <h1>Refund Policy</h1>
+    <p>We want you to be happy with every purchase on Nizervers.</p>
+  </div>
+  <div class="last-updated">Last updated: March 11, 2025</div>
+  <div class="divider"></div>
+
+  <div class="highlight-box">
+    We offer a <strong>7-day refund window</strong> for all paid theme purchases. If you are not satisfied, contact us within 7 days of your purchase and we will process your refund.
+  </div>
+
+  <section>
+    <h2>1. Eligibility for Refunds</h2>
+    <p>You are eligible for a full refund if:</p>
+    <ul>
+      <li>You request a refund within <strong>7 days</strong> of the original purchase date</li>
+      <li>The theme did not work as described or was not compatible with your device</li>
+      <li>You experienced a technical issue that we were unable to resolve</li>
+      <li>You were accidentally charged (duplicate purchase)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Non-Refundable Cases</h2>
+    <p>Refunds will not be issued in the following circumstances:</p>
+    <ul>
+      <li>More than 7 days have passed since the purchase date</li>
+      <li>The theme has been downloaded and used without any reported issues</li>
+      <li>Refund is requested simply due to a change of mind after full use</li>
+      <li>The issue is caused by an incompatible third-party app not related to Nizervers</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. How to Request a Refund</h2>
+    <p>To request a refund, please email us at <a href="mailto:nizercreate@gmail.com">nizercreate@gmail.com</a> with the following details:</p>
+    <ul>
+      <li>Your full name and email address used for purchase</li>
+      <li>The name of the theme purchased</li>
+      <li>Your order or transaction ID (if available)</li>
+      <li>A brief reason for the refund request</li>
+    </ul>
+    <p>We will review your request and respond within <strong>3 business days</strong>.</p>
+  </section>
+
+  <section>
+    <h2>4. Refund Processing</h2>
+    <p>Approved refunds will be processed back to the original payment method. Processing time may take 5–10 business days depending on your bank or payment provider. Refunds are handled through our payment processor, Paddle.</p>
+  </section>
+
+  <section>
+    <h2>5. Subscription Products</h2>
+    <p>If Nizervers offers any subscription-based plans in the future, you may cancel at any time. Cancellations will take effect at the end of the current billing period. We do not provide prorated refunds for unused subscription time unless required by law.</p>
+  </section>
+
+  <section>
+    <h2>6. Contact Us</h2>
+    <p>For any questions about our refund policy or to initiate a refund, please contact us at <a href="mailto:nizercreate@gmail.com">nizercreate@gmail.com</a>. We aim to resolve all issues fairly and promptly.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Nizervers. All rights reserved.
+</footer>
+</body>
+</html>
