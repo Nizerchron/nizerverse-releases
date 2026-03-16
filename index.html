@@ -46,12 +46,25 @@
             border-radius: 8px;
             font-weight: bold;
             margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #1d4ed8;
         }
         footer {
             text-align: center;
             padding: 2rem;
             font-size: 0.9rem;
             color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+        .footer-links a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 10px;
         }
         ul { padding-left: 1.2rem; }
     </style>
@@ -72,7 +85,7 @@
     <section class="card">
         <h2>Aplikasi Kami: Nizerverse</h2>
         <p><strong>Nizerverse</strong> adalah platform utama kami yang memudahkan Anda untuk menjelajahi dan mengunduh koleksi preset KLWP Pro terbaru dari Nizer Create langsung ke perangkat Anda.</p>
-        <a href="#" class="btn">Lihat di Google Play</a>
+        <a href="https://play.google.com/store/apps/details?id=com.nizerverse.app" target="_blank" class="btn">Dapatkan di Google Play</a>
     </section>
 
     <section class="card" id="privacy">
@@ -83,6 +96,7 @@
             <li>Izin yang diminta hanya digunakan untuk fungsionalitas aplikasi (seperti akses penyimpanan untuk menyimpan preset).</li>
             <li>Kami tidak membagikan informasi apapun kepada pihak ketiga.</li>
         </ul>
+        <a href="privacy.html" style="color: var(--primary); font-size: 0.9rem;">Baca selengkapnya...</a>
     </section>
 
     <section class="card">
@@ -93,6 +107,11 @@
 </div>
 
 <footer>
+    <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a> | 
+        <a href="terms.html">Terms of Service</a> | 
+        <a href="refund.html">Refund Policy</a>
+    </div>
     <p>&copy; 2026 Nizer Create. All rights reserved.</p>
 </footer>
 
